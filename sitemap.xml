@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://danny2915.github.io/InClassPractice/answers/wk2_answer.html</loc>
-    <lastmod>2025-09-07T10:39:50.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://danny2915.github.io/InClassPractice/practices/wk2.html</loc>
-    <lastmod>2025-09-07T10:33:52.000Z</lastmod>
-  </url>
-  <url>
-    <loc>https://danny2915.github.io/InClassPractice/index.html</loc>
-    <lastmod>2025-09-07T10:53:45.000Z</lastmod>
+    <loc>https://danny2915.github.io/InClassPractice/answers/wk1_answer.html</loc>
+    <lastmod>2025-09-07T10:13:50.000Z</lastmod>
   </url>
   <url>
     <loc>https://danny2915.github.io/InClassPractice/practices/wk1.html</loc>
     <lastmod>2025-09-07T10:15:30.000Z</lastmod>
   </url>
   <url>
-    <loc>https://danny2915.github.io/InClassPractice/answers/wk1_answer.html</loc>
-    <lastmod>2025-09-07T10:13:50.000Z</lastmod>
+    <loc>https://danny2915.github.io/InClassPractice/slides/Slides_wk1.html</loc>
+    <lastmod>2025-09-07T15:58:32.792Z</lastmod>
+  </url>
+  <url>
+    <loc>https://danny2915.github.io/InClassPractice/index.html</loc>
+    <lastmod>2025-09-07T16:02:32.939Z</lastmod>
+  </url>
+  <url>
+    <loc>https://danny2915.github.io/InClassPractice/slides/Slides_wk2.html</loc>
+    <lastmod>2025-09-07T15:58:38.085Z</lastmod>
+  </url>
+  <url>
+    <loc>https://danny2915.github.io/InClassPractice/practices/wk2.html</loc>
+    <lastmod>2025-09-07T10:33:52.000Z</lastmod>
   </url>
 </urlset>
