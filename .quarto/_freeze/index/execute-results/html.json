@@ -1,0 +1,15 @@
+{
+  "hash": "5cf40cdd6a1ee8c41e26abddf6e50495",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"2025Fall Statistics TA Session In-Class Practice wk1 0902\"\nauthor: \"Danny Po-Hsien Kang\"\ndate: \"2025-09-02\"\n---\n\n\n# Assign Values\n\nCreate two variables called `x` and `y`, and assign values `20240903` and `501`. Compute `x / y`.\n\n``` r\nx <- 20240903\ny <- 501\nx / y\n```\n\n# Help\n\nUse the help() function to check docs, e.g. data.frame() or mean().\n\n# Matrix\n\nCreate the following vectors:\n\n::: {.cell}\n\n```{.r .cell-code}\nname_vec <- c(\"James\", \"Noc\", \"Monica\")\n\nage_vec <- c(25, 30, 28)\n```\n:::\n\n\nand create a 3 × 2 matrix with these two vectors.\n\nDo you encounter errors? Can you print the matrix out?\nWhat’s the data type of the matrix?\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "index.qmd": {
+    "index.html": "2daeec58"
+  },
+  "about.qmd": {
+    "about.html": "b5ab87b5"
+  },
+  "questions/wk1.qmd": {
+    "wk1.html": "edbb75d4"
+  },
+  "questions/wk10.qmd": {
+    "wk10.html": "ec648d3b"
+  },
+  "questions/wk11.qmd": {
+    "wk11.html": "5e514760"
+  },
+  "questions/wk12.qmd": {
+    "wk12.html": "e50c5339"
+  },
+  "questions/wk13.qmd": {
+    "wk13.html": "d06a7195"
+  },
+  "questions/wk14.qmd": {
+    "wk14.html": "6c97ea8d"
+  },
+  "questions/wk15.qmd": {
+    "wk15.html": "063aa2b4"
+  },
+  "questions/wk16.qmd": {
+    "wk16.html": "65b26be3"
+  },
+  "questions/wk2.qmd": {
+    "wk2.html": "56646304"
+  },
+  "questions/wk3.qmd": {
+    "wk3.html": "1acce0b2"
+  },
+  "questions/wk4.qmd": {
+    "wk4.html": "17b07b86"
+  },
+  "questions/wk5.qmd": {
+    "wk5.html": "2dfb93b6"
+  },
+  "questions/wk6.qmd": {
+    "wk6.html": "8d69b9d5"
+  },
+  "questions/wk7.qmd": {
+    "wk7.html": "649f2800"
+  },
+  "questions/wk8.qmd": {
+    "wk8.html": "abaa228f"
+  },
+  "questions/wk9.qmd": {
+    "wk9.html": "26f0417b"
+  },
+  "answers/wk10_answer.qmd": {
+    "wk10_answer.html": "6a4e6d60"
+  },
+  "answers/wk11_answer.qmd": {
+    "wk11_answer.html": "a89eba0e"
+  },
+  "answers/wk12_answer.qmd": {
+    "wk12_answer.html": "ce86cea6"
+  },
+  "answers/wk13_answer.qmd": {
+    "wk13_answer.html": "c5996f6f"
+  },
+  "answers/wk14_answer.qmd": {
+    "wk14_answer.html": "c705ff5e"
+  },
+  "answers/wk15_answer.qmd": {
+    "wk15_answer.html": "9d8b8ab5"
+  },
+  "answers/wk16_answer.qmd": {
+    "wk16_answer.html": "233de238"
+  },
+  "answers/wk1_answer.qmd": {
+    "wk1_answer.html": "064a5b52"
+  },
+  "answers/wk2_answer.qmd": {
+    "wk2_answer.html": "9aa0c6cd"
+  },
+  "answers/wk3_answer.qmd": {
+    "wk3_answer.html": "7aebf8c6"
+  },
+  "answers/wk4_answer.qmd": {
+    "wk4_answer.html": "f849f609"
+  },
+  "answers/wk5_answer.qmd": {
+    "wk5_answer.html": "31ba7cca"
+  },
+  "answers/wk6_answer.qmd": {
+    "wk6_answer.html": "1161b371"
+  },
+  "answers/wk7_answer.qmd": {
+    "wk7_answer.html": "094c290c"
+  },
+  "answers/wk8_answer.qmd": {
+    "wk8_answer.html": "87022de7"
+  },
+  "answers/wk9_answer.qmd": {
+    "wk9_answer.html": "bdf977d2"
+  },
+  "practices/wk1.qmd": {
+    "wk1.html": "f3baab38"
+  },
+  "practices/wk2.qmd": {
+    "wk2.html": "e09028d6"
+  }
+}
