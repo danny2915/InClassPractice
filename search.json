@@ -4,7 +4,40 @@
     "href": "answers/wk1_answer.html",
     "title": "Week 1 Answers (0902)",
     "section": "",
-    "text": "1 Assign Values\nCreate two variables called x and y, and assign values 20250902 and 1031. Compute x / y.\nx &lt;- 20250902\ny &lt;- 1031\nprint(x / y)\n\n\n2 Help\nUse the help() function to check docs, e.g. data.frame() or mean().\nhelp(data.frame)\nhelp(mean)\n\n\n3 Matrix\nCreate the following vectors:\nname_vec &lt;- c(\"James\", \"Noc\", \"Monica\")\n\nage_vec &lt;- c(25, 30, 28)\nand create a 3 × 2 matrix with these two vectors.\nDo you encounter errors? Can you print the matrix out? What’s the data type of the matrix?\nname_vec &lt;- c(\"James\", \"Noc\", \"Monica\")\nage_vec &lt;- c(25, 30, 28)\nmat &lt;- matrix(c(name_vec, age_vec), nrow = 3)\nprint(mat)\nclass(mat)\n\n# `mat[,2]` only select the second column\n# note that the `age_vec` become character type after merging into matrix\nprint(mat[,2])\nclass(mat[,2])",
+    "text": "Create two variables called x and y, and assign values 20250902 and 1031. Compute x / y.\nx &lt;- 20250902\ny &lt;- 1031\nprint(x / y)",
+    "crumbs": [
+      "Answers",
+      "Week 1 Answers (0902)"
+    ]
+  },
+  {
+    "objectID": "answers/wk1_answer.html#assign-values",
+    "href": "answers/wk1_answer.html#assign-values",
+    "title": "Week 1 Answers (0902)",
+    "section": "",
+    "text": "Create two variables called x and y, and assign values 20250902 and 1031. Compute x / y.\nx &lt;- 20250902\ny &lt;- 1031\nprint(x / y)",
+    "crumbs": [
+      "Answers",
+      "Week 1 Answers (0902)"
+    ]
+  },
+  {
+    "objectID": "answers/wk1_answer.html#help",
+    "href": "answers/wk1_answer.html#help",
+    "title": "Week 1 Answers (0902)",
+    "section": "2 Help",
+    "text": "2 Help\nUse the help() function to check docs, e.g. data.frame() or mean().\nhelp(data.frame)\nhelp(mean)",
+    "crumbs": [
+      "Answers",
+      "Week 1 Answers (0902)"
+    ]
+  },
+  {
+    "objectID": "answers/wk1_answer.html#matrix",
+    "href": "answers/wk1_answer.html#matrix",
+    "title": "Week 1 Answers (0902)",
+    "section": "3 Matrix",
+    "text": "3 Matrix\nCreate the following vectors:\nname_vec &lt;- c(\"James\", \"Noc\", \"Monica\")\n\nage_vec &lt;- c(25, 30, 28)\nand create a 3 × 2 matrix with these two vectors.\nDo you encounter errors? Can you print the matrix out? What’s the data type of the matrix?\nname_vec &lt;- c(\"James\", \"Noc\", \"Monica\")\nage_vec &lt;- c(25, 30, 28)\nmat &lt;- matrix(c(name_vec, age_vec), nrow = 3)\nprint(mat)\nclass(mat)\n\n# `mat[,2]` only select the second column\n# note that the `age_vec` become character type after merging into matrix\nprint(mat[,2])\nclass(mat[,2])",
     "crumbs": [
       "Answers",
       "Week 1 Answers (0902)"
@@ -15,7 +48,40 @@
     "href": "practices/wk1.html",
     "title": "Week 1 Practices (0902)",
     "section": "",
-    "text": "1 Assign Values\nCreate two variables called x and y, and assign values 20250902 and 1031. Compute x / y.\n\n\n2 Help\nUse the help() function to check docs, e.g. data.frame() or mean().\n\n\n3 Matrix\nCreate the following vectors:\nname_vec &lt;- c(\"James\", \"Noc\", \"Monica\")\n\nage_vec &lt;- c(25, 30, 28)\nand create a 3 × 2 matrix with these two vectors.\nDo you encounter errors? Can you print the matrix out? What’s the data type of the matrix?",
+    "text": "Create two variables called x and y, and assign values 20250902 and 1031. Compute x / y.",
+    "crumbs": [
+      "Practices",
+      "Week 1 Practices (0902)"
+    ]
+  },
+  {
+    "objectID": "practices/wk1.html#assign-values",
+    "href": "practices/wk1.html#assign-values",
+    "title": "Week 1 Practices (0902)",
+    "section": "",
+    "text": "Create two variables called x and y, and assign values 20250902 and 1031. Compute x / y.",
+    "crumbs": [
+      "Practices",
+      "Week 1 Practices (0902)"
+    ]
+  },
+  {
+    "objectID": "practices/wk1.html#help",
+    "href": "practices/wk1.html#help",
+    "title": "Week 1 Practices (0902)",
+    "section": "2 Help",
+    "text": "2 Help\nUse the help() function to check docs, e.g. data.frame() or mean().",
+    "crumbs": [
+      "Practices",
+      "Week 1 Practices (0902)"
+    ]
+  },
+  {
+    "objectID": "practices/wk1.html#matrix",
+    "href": "practices/wk1.html#matrix",
+    "title": "Week 1 Practices (0902)",
+    "section": "3 Matrix",
+    "text": "3 Matrix\nCreate the following vectors:\nname_vec &lt;- c(\"James\", \"Noc\", \"Monica\")\n\nage_vec &lt;- c(25, 30, 28)\nand create a 3 × 2 matrix with these two vectors.\nDo you encounter errors? Can you print the matrix out? What’s the data type of the matrix?",
     "crumbs": [
       "Practices",
       "Week 1 Practices (0902)"
