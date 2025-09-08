@@ -36,7 +36,18 @@
     "href": "practices/wk2.html",
     "title": "Week 2 Practices (0909)",
     "section": "",
-    "text": "Import the package tidyverse, which contains several useful functions for data wrangling and visualization.\nCreate a folder on your computer to store the dataset downloaded from NTU COOL or OpenIntro website.\nSet your working directory as that folder and import the datasets county.csv and loan50.csv.",
+    "text": "Please download the datasets county.csv and loan50.csv here.",
+    "crumbs": [
+      "Practices",
+      "Week 2 Practices (0909)"
+    ]
+  },
+  {
+    "objectID": "practices/wk2.html#download-data",
+    "href": "practices/wk2.html#download-data",
+    "title": "Week 2 Practices (0909)",
+    "section": "",
+    "text": "Please download the datasets county.csv and loan50.csv here.",
     "crumbs": [
       "Practices",
       "Week 2 Practices (0909)"
@@ -46,8 +57,8 @@
     "objectID": "practices/wk2.html#import-data",
     "href": "practices/wk2.html#import-data",
     "title": "Week 2 Practices (0909)",
-    "section": "",
-    "text": "Import the package tidyverse, which contains several useful functions for data wrangling and visualization.\nCreate a folder on your computer to store the dataset downloaded from NTU COOL or OpenIntro website.\nSet your working directory as that folder and import the datasets county.csv and loan50.csv.",
+    "section": "2 Import Data",
+    "text": "2 Import Data\n\nImport the package tidyverse, which contains several useful functions for data wrangling and visualization.\nCreate a folder on your computer to store the dataset downloaded from NTU COOL or OpenIntro website.\nSet your working directory as that folder and import the datasets county.csv and loan50.csv.",
     "crumbs": [
       "Practices",
       "Week 2 Practices (0909)"
@@ -57,8 +68,8 @@
     "objectID": "practices/wk2.html#scatter-plot",
     "href": "practices/wk2.html#scatter-plot",
     "title": "Week 2 Practices (0909)",
-    "section": "2 Scatter Plot",
-    "text": "2 Scatter Plot\n\nUse county.csv to draw the scatter plot of unemployment_rate (x-axis) and per_capita_income (y-axis).\n\n\n\n\n\n\n\nTip\n\n\n\nHint: You don’t need to specify any parameter in geom_point().\n\n\n\nDraw the same graph again, but this time make the following adjustments:\n\nadjust the point color to lightcoral\nadjust the point size to 0.5",
+    "section": "3 Scatter Plot",
+    "text": "3 Scatter Plot\n\nUse county.csv to draw the scatter plot of unemployment_rate (x-axis) and per_capita_income (y-axis).\n\n\n\n\n\n\n\nTip\n\n\n\nHint: You don’t need to specify any parameter in geom_point().\n\n\n\nDraw the same graph again, but this time make the following adjustments:\n\nadjust the point color to lightcoral\nadjust the point size to 0.5",
     "crumbs": [
       "Practices",
       "Week 2 Practices (0909)"
@@ -68,8 +79,8 @@
     "objectID": "practices/wk2.html#histogram",
     "href": "practices/wk2.html#histogram",
     "title": "Week 2 Practices (0909)",
-    "section": "3 Histogram",
-    "text": "3 Histogram\nUse loan.csv data to draw the histogram of loan_amount (set as x-axis), and adjust the parameter binwidth in geom_histogram() to 5000.",
+    "section": "4 Histogram",
+    "text": "4 Histogram\nUse loan.csv data to draw the histogram of loan_amount (set as x-axis), and adjust the parameter binwidth in geom_histogram() to 5000.",
     "crumbs": [
       "Practices",
       "Week 2 Practices (0909)"

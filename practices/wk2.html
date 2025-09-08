@@ -159,9 +159,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#import-data" id="toc-import-data" class="nav-link active" data-scroll-target="#import-data"><span class="header-section-number">1</span> Import Data</a></li>
-  <li><a href="#scatter-plot" id="toc-scatter-plot" class="nav-link" data-scroll-target="#scatter-plot"><span class="header-section-number">2</span> Scatter Plot</a></li>
-  <li><a href="#histogram" id="toc-histogram" class="nav-link" data-scroll-target="#histogram"><span class="header-section-number">3</span> Histogram</a></li>
+  <li><a href="#download-data" id="toc-download-data" class="nav-link active" data-scroll-target="#download-data"><span class="header-section-number">1</span> Download Data</a></li>
+  <li><a href="#import-data" id="toc-import-data" class="nav-link" data-scroll-target="#import-data"><span class="header-section-number">2</span> Import Data</a></li>
+  <li><a href="#scatter-plot" id="toc-scatter-plot" class="nav-link" data-scroll-target="#scatter-plot"><span class="header-section-number">3</span> Scatter Plot</a></li>
+  <li><a href="#histogram" id="toc-histogram" class="nav-link" data-scroll-target="#histogram"><span class="header-section-number">4</span> Histogram</a></li>
   </ul>
 </nav>
 </nav>
@@ -191,16 +192,20 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="import-data" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="import-data"><span class="header-section-number">1</span> Import Data</h2>
+<section id="download-data" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="download-data"><span class="header-section-number">1</span> Download Data</h2>
+<p>Please download the datasets <code>county.csv</code> and <code>loan50.csv</code> <a href="https://www.openintro.org/data/" target="_blank">here</a>.</p>
+</section>
+<section id="import-data" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="import-data"><span class="header-section-number">2</span> Import Data</h2>
 <ol type="1">
 <li><p>Import the package <code>tidyverse</code>, which contains several useful functions for data wrangling and visualization.</p></li>
 <li><p>Create a folder on your computer to store the dataset downloaded from NTU COOL or OpenIntro website.<br>
 Set your working directory as that folder and import the datasets <code>county.csv</code> and <code>loan50.csv</code>.</p></li>
 </ol>
 </section>
-<section id="scatter-plot" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="scatter-plot"><span class="header-section-number">2</span> Scatter Plot</h2>
+<section id="scatter-plot" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="scatter-plot"><span class="header-section-number">3</span> Scatter Plot</h2>
 <ol type="1">
 <li>Use <code>county.csv</code> to draw the scatter plot of <code>unemployment_rate</code> (x-axis) and <code>per_capita_income</code> (y-axis).</li>
 </ol>
@@ -225,8 +230,8 @@ Tip
 </ul></li>
 </ol>
 </section>
-<section id="histogram" class="level2" data-number="3">
-<h2 data-number="3" class="anchored" data-anchor-id="histogram"><span class="header-section-number">3</span> Histogram</h2>
+<section id="histogram" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="histogram"><span class="header-section-number">4</span> Histogram</h2>
 <p>Use <code>loan.csv</code> data to draw the histogram of <code>loan_amount</code> (set as x-axis), and adjust the parameter <code>binwidth</code> in <code>geom_histogram()</code> to 5000.</p>
 
 
