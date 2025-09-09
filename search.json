@@ -1,100 +1,57 @@
 [
   {
-    "objectID": "answers/wk1_answer.html",
-    "href": "answers/wk1_answer.html",
-    "title": "Week 1 Answers (0902)",
+    "objectID": "answers/wk2_answer.html",
+    "href": "answers/wk2_answer.html",
+    "title": "Week 2 Answers (0909)",
     "section": "",
-    "text": "Create two variables called x and y, and assign values 20250902 and 1031. Compute x / y.\nx &lt;- 20250902\ny &lt;- 1031\nprint(x / y)",
+    "text": "Please download the datasets county.csv and loan50.csv here.",
     "crumbs": [
       "Answers",
-      "Week 1 Answers (0902)"
+      "Week 2 Answers (0909)"
     ]
   },
   {
-    "objectID": "answers/wk1_answer.html#assign-values",
-    "href": "answers/wk1_answer.html#assign-values",
-    "title": "Week 1 Answers (0902)",
+    "objectID": "answers/wk2_answer.html#download-data",
+    "href": "answers/wk2_answer.html#download-data",
+    "title": "Week 2 Answers (0909)",
     "section": "",
-    "text": "Create two variables called x and y, and assign values 20250902 and 1031. Compute x / y.\nx &lt;- 20250902\ny &lt;- 1031\nprint(x / y)",
+    "text": "Please download the datasets county.csv and loan50.csv here.",
     "crumbs": [
       "Answers",
-      "Week 1 Answers (0902)"
+      "Week 2 Answers (0909)"
     ]
   },
   {
-    "objectID": "answers/wk1_answer.html#help",
-    "href": "answers/wk1_answer.html#help",
-    "title": "Week 1 Answers (0902)",
-    "section": "2 Help",
-    "text": "2 Help\nUse the help() function to check docs, e.g. data.frame() or mean().\nhelp(data.frame)\nhelp(mean)",
+    "objectID": "answers/wk2_answer.html#import-data",
+    "href": "answers/wk2_answer.html#import-data",
+    "title": "Week 2 Answers (0909)",
+    "section": "2 Import Data",
+    "text": "2 Import Data\n\nImport the package tidyverse, which contains several useful functions for data wrangling and visualization.\nCreate a folder on your computer to store the dataset downloaded from NTU COOL or OpenIntro website.\nSet your working directory as that folder and import the datasets county.csv and loan50.csv.\n\nlibrary(tidyverse)\nsetwd(\"/your/working/directory\")\ncounty &lt;- read.csv(\"county.csv\")\nloan &lt;- read.csv(\"loan50.csv\")",
     "crumbs": [
       "Answers",
-      "Week 1 Answers (0902)"
+      "Week 2 Answers (0909)"
     ]
   },
   {
-    "objectID": "answers/wk1_answer.html#matrix",
-    "href": "answers/wk1_answer.html#matrix",
-    "title": "Week 1 Answers (0902)",
-    "section": "3 Matrix",
-    "text": "3 Matrix\nCreate the following vectors:\nname_vec &lt;- c(\"James\", \"Noc\", \"Monica\")\n\nage_vec &lt;- c(25, 30, 28)\nand create a 3 × 2 matrix with these two vectors.\nDo you encounter errors? Can you print the matrix out? What’s the data type of the matrix?\nname_vec &lt;- c(\"James\", \"Noc\", \"Monica\")\nage_vec &lt;- c(25, 30, 28)\nmat &lt;- matrix(c(name_vec, age_vec), nrow = 3)\nprint(mat)\nclass(mat)\n\n# `mat[,2]` only select the second column\n# note that the `age_vec` become character type after merging into matrix\nprint(mat[,2])\nclass(mat[,2])",
+    "objectID": "answers/wk2_answer.html#scatter-plot",
+    "href": "answers/wk2_answer.html#scatter-plot",
+    "title": "Week 2 Answers (0909)",
+    "section": "3 Scatter Plot",
+    "text": "3 Scatter Plot\n\nUse county.csv to draw the scatter plot of unemployment_rate (x-axis) and per_capita_income (y-axis).\n\n\n\n\n\n\n\nTip\n\n\n\nHint: You don’t need to specify any parameter in geom_point().\n\n\nggplot(county, aes(x = unemployment_rate, y = per_capita_income)) + \n  geom_point()\n\n\n\n\n\n\n\n\n\n\nDraw the same graph again, but this time make the following adjustments:\n\nadjust the point color to lightcoral\nadjust the point size to 0.5\n\n\nggplot(county, aes(x = unemployment_rate, y = per_capita_income)) +\n  geom_point(color = \"lightcoral\", size = 0.5)",
     "crumbs": [
       "Answers",
-      "Week 1 Answers (0902)"
+      "Week 2 Answers (0909)"
     ]
   },
   {
-    "objectID": "practices/wk1.html",
-    "href": "practices/wk1.html",
-    "title": "Week 1 Practices (0902)",
-    "section": "",
-    "text": "Create two variables called x and y, and assign values 20250902 and 1031. Compute x / y.",
+    "objectID": "answers/wk2_answer.html#histogram",
+    "href": "answers/wk2_answer.html#histogram",
+    "title": "Week 2 Answers (0909)",
+    "section": "4 Histogram",
+    "text": "4 Histogram\nUse loan50.csv data to draw the histogram of loan_amount (set as x-axis), and adjust the parameter binwidth in geom_histogram() to 5000.\nggplot(loan, aes(x = loan_amount)) +\n  geom_histogram(binwidth = 5000)\n\n\n[1] \"C:/Users/danny/Dropbox/Graduate/統計學TA/2025/InClassPractice/answers\"",
     "crumbs": [
-      "Practices",
-      "Week 1 Practices (0902)"
-    ]
-  },
-  {
-    "objectID": "practices/wk1.html#assign-values",
-    "href": "practices/wk1.html#assign-values",
-    "title": "Week 1 Practices (0902)",
-    "section": "",
-    "text": "Create two variables called x and y, and assign values 20250902 and 1031. Compute x / y.",
-    "crumbs": [
-      "Practices",
-      "Week 1 Practices (0902)"
-    ]
-  },
-  {
-    "objectID": "practices/wk1.html#help",
-    "href": "practices/wk1.html#help",
-    "title": "Week 1 Practices (0902)",
-    "section": "2 Help",
-    "text": "2 Help\nUse the help() function to check docs, e.g. data.frame() or mean().",
-    "crumbs": [
-      "Practices",
-      "Week 1 Practices (0902)"
-    ]
-  },
-  {
-    "objectID": "practices/wk1.html#matrix",
-    "href": "practices/wk1.html#matrix",
-    "title": "Week 1 Practices (0902)",
-    "section": "3 Matrix",
-    "text": "3 Matrix\nCreate the following vectors:\nname_vec &lt;- c(\"James\", \"Noc\", \"Monica\")\n\nage_vec &lt;- c(25, 30, 28)\nand create a 3 × 2 matrix with these two vectors.\nDo you encounter errors? Can you print the matrix out? What’s the data type of the matrix?",
-    "crumbs": [
-      "Practices",
-      "Week 1 Practices (0902)"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "2025Fall Statistics TA Session",
-    "section": "",
-    "text": "Welcome! Use the sidebar to open weekly Slides, Practices and Answers\nAnswers to the practice will be published after each TA Session.\nSending email: r13323002@ntu.edu.tw (mail title including [Statistics TA])\nTA Office hours: Tuesday, 4:30-5:20 p.m. at SSB. (社會科學院) Room 645.",
-    "crumbs": [
-      "Home"
+      "Answers",
+      "Week 2 Answers (0909)"
     ]
   },
   {
@@ -146,10 +103,119 @@
     "href": "practices/wk2.html#histogram",
     "title": "Week 2 Practices (0909)",
     "section": "4 Histogram",
-    "text": "4 Histogram\nUse loan.csv data to draw the histogram of loan_amount (set as x-axis), and adjust the parameter binwidth in geom_histogram() to 5000.",
+    "text": "4 Histogram\nUse loan50.csv data to draw the histogram of loan_amount (set as x-axis), and adjust the parameter binwidth in geom_histogram() to 5000.",
     "crumbs": [
       "Practices",
       "Week 2 Practices (0909)"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "2025Fall Statistics TA Session",
+    "section": "",
+    "text": "Welcome! Use the sidebar to open weekly Slides, Practices and Answers\nAnswers to the practice will be published after each TA Session.\nSending email: r13323002@ntu.edu.tw (mail title including [Statistics TA])\nTA Office hours: Tuesday, 4:30-5:20 p.m. at SSB. (社會科學院) Room 645.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "slides/Slides_wk1.html",
+    "href": "slides/Slides_wk1.html",
+    "title": "Week 1 Slides (0902)",
+    "section": "",
+    "text": "Open original PDF",
+    "crumbs": [
+      "Slides",
+      "Week 1 Slides (0902)"
+    ]
+  },
+  {
+    "objectID": "practices/wk1.html",
+    "href": "practices/wk1.html",
+    "title": "Week 1 Practices (0902)",
+    "section": "",
+    "text": "Create two variables called x and y, and assign values 20250902 and 1031. Compute x / y.",
+    "crumbs": [
+      "Practices",
+      "Week 1 Practices (0902)"
+    ]
+  },
+  {
+    "objectID": "practices/wk1.html#assign-values",
+    "href": "practices/wk1.html#assign-values",
+    "title": "Week 1 Practices (0902)",
+    "section": "",
+    "text": "Create two variables called x and y, and assign values 20250902 and 1031. Compute x / y.",
+    "crumbs": [
+      "Practices",
+      "Week 1 Practices (0902)"
+    ]
+  },
+  {
+    "objectID": "practices/wk1.html#help",
+    "href": "practices/wk1.html#help",
+    "title": "Week 1 Practices (0902)",
+    "section": "2 Help",
+    "text": "2 Help\nUse the help() function to check docs, e.g. data.frame() or mean().",
+    "crumbs": [
+      "Practices",
+      "Week 1 Practices (0902)"
+    ]
+  },
+  {
+    "objectID": "practices/wk1.html#matrix",
+    "href": "practices/wk1.html#matrix",
+    "title": "Week 1 Practices (0902)",
+    "section": "3 Matrix",
+    "text": "3 Matrix\nCreate the following vectors:\nname_vec &lt;- c(\"James\", \"Noc\", \"Monica\")\n\nage_vec &lt;- c(25, 30, 28)\nand create a 3 × 2 matrix with these two vectors.\nDo you encounter errors? Can you print the matrix out? What’s the data type of the matrix?",
+    "crumbs": [
+      "Practices",
+      "Week 1 Practices (0902)"
+    ]
+  },
+  {
+    "objectID": "answers/wk1_answer.html",
+    "href": "answers/wk1_answer.html",
+    "title": "Week 1 Answers (0902)",
+    "section": "",
+    "text": "Create two variables called x and y, and assign values 20250902 and 1031. Compute x / y.\nx &lt;- 20250902\ny &lt;- 1031\nprint(x / y)",
+    "crumbs": [
+      "Answers",
+      "Week 1 Answers (0902)"
+    ]
+  },
+  {
+    "objectID": "answers/wk1_answer.html#assign-values",
+    "href": "answers/wk1_answer.html#assign-values",
+    "title": "Week 1 Answers (0902)",
+    "section": "",
+    "text": "Create two variables called x and y, and assign values 20250902 and 1031. Compute x / y.\nx &lt;- 20250902\ny &lt;- 1031\nprint(x / y)",
+    "crumbs": [
+      "Answers",
+      "Week 1 Answers (0902)"
+    ]
+  },
+  {
+    "objectID": "answers/wk1_answer.html#help",
+    "href": "answers/wk1_answer.html#help",
+    "title": "Week 1 Answers (0902)",
+    "section": "2 Help",
+    "text": "2 Help\nUse the help() function to check docs, e.g. data.frame() or mean().\nhelp(data.frame)\nhelp(mean)",
+    "crumbs": [
+      "Answers",
+      "Week 1 Answers (0902)"
+    ]
+  },
+  {
+    "objectID": "answers/wk1_answer.html#matrix",
+    "href": "answers/wk1_answer.html#matrix",
+    "title": "Week 1 Answers (0902)",
+    "section": "3 Matrix",
+    "text": "3 Matrix\nCreate the following vectors:\nname_vec &lt;- c(\"James\", \"Noc\", \"Monica\")\n\nage_vec &lt;- c(25, 30, 28)\nand create a 3 × 2 matrix with these two vectors.\nDo you encounter errors? Can you print the matrix out? What’s the data type of the matrix?\nname_vec &lt;- c(\"James\", \"Noc\", \"Monica\")\nage_vec &lt;- c(25, 30, 28)\nmat &lt;- matrix(c(name_vec, age_vec), nrow = 3)\nprint(mat)\nclass(mat)\n\n# `mat[,2]` only select the second column\n# note that the `age_vec` become character type after merging into matrix\nprint(mat[,2])\nclass(mat[,2])",
+    "crumbs": [
+      "Answers",
+      "Week 1 Answers (0902)"
     ]
   }
 ]
