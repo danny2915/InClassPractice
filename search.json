@@ -1,5 +1,16 @@
 [
   {
+    "objectID": "example_code/Example_Code_wk2.html",
+    "href": "example_code/Example_Code_wk2.html",
+    "title": "Week 2 Example R Code (0909)",
+    "section": "",
+    "text": "Right click to download:\n\nwk2_example_code.R",
+    "crumbs": [
+      "Example R code",
+      "Week 2 Example R Code (0909)"
+    ]
+  },
+  {
     "objectID": "answers/wk2_answer.html",
     "href": "answers/wk2_answer.html",
     "title": "Week 2 Answers (0909)",
@@ -227,6 +238,17 @@
     "crumbs": [
       "Answers",
       "Week 1 Answers (0902)"
+    ]
+  },
+  {
+    "objectID": "example_code/Example_Code_wk1.html",
+    "href": "example_code/Example_Code_wk1.html",
+    "title": "Week 1 Example R Code (0902)",
+    "section": "",
+    "text": "Right click to download:\n\nwk1_example_code.R",
+    "crumbs": [
+      "Example R code",
+      "Week 1 Example R Code (0902)"
     ]
   }
 ]
